@@ -5,16 +5,7 @@
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: "Alex Brush", cursive;
-  font-family: "Chakra Petch", sans-serif;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Open Sans", sans-serif;
-  font-family: "Pacifico", cursive;
-  font-family: "Pinyon Script", cursive;
-  font-family: "Poppins", sans-serif;
   font-family: "Rajdhani", sans-serif;
-  font-family: "Raleway", sans-serif;
-  font-family: "Roboto", sans-serif;
 }
 
 html,
@@ -298,6 +289,7 @@ body {
   letter-spacing: -1px;
 }
 #ftext button {
+  cursor: pointer;
   background-color: transparent;
   border: 1px solid #000;
   outline: none;
@@ -307,10 +299,10 @@ body {
   font-size: 12px;
 }
 
-#video{
+#video {
   height: 100vh;
   width: 100%;
 }
-#video video{
+#video video {
   width: 100%;
 }

@@ -4,6 +4,12 @@ const scroll = new LocomotiveScroll({
   smooth: true,
 });
 
+// Shery JS
+
+Shery.mouseFollower();
+Shery.makeMagnet(".magnet");
+Shery.hoverWithMediaCircle(".onmous", { images: [".https://wallpaperaccess.com/full/16773.jpg","https://w0.peakpx.com/wallpaper/657/253/HD-wallpaper-native-american-cosplay-model-native-american-cosplay.jpg"] });
+
 // GSAP
 gsap.from(".navlink", {
   stagger: 0.2,
